@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+*.db
+
+# Env files
+.env
+!.env.example
+
+# Node / frontend
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+frontend/vite.config.js
+frontend/vite.config.d.ts
+
+# Eval output
+backend/eval/results.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
